@@ -18,7 +18,7 @@ struct SettingsView: View {
                     Text("Show profile")
                 }
                 Toggle(isOn: $userData.showFavoriteOnly) {
-                    Text("Favorites only")
+                    Text("Show favorites only")
                 }
             }
             

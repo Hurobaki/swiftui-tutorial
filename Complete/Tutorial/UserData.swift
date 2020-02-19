@@ -8,12 +8,13 @@
 
 import Foundation
 import Combine
+import UIKit
 
 final class UserData: ObservableObject {
     @Published var showFavoriteOnly: Bool = false
     @Published var items: [Landmark] = landmarkData
     @Published var showProfile: Bool = false
-    @Published var isDark: Bool = false {
+    @Published var isDark: Bool = UIScreen.main.traitCollection.userInterfaceStyle == .dark ? true : false {
         didSet {
             SceneDelegate.shared?.window!.overrideUserInterfaceStyle = isDark ? .dark : .light
         }

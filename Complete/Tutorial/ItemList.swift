@@ -10,7 +10,6 @@ import SwiftUI
 
 struct ItemList: View {
     @EnvironmentObject var userData: UserData
-    @State var trailing: Bool = false
     
     init() {
         UITableView.appearance().separatorStyle = .none
@@ -20,10 +19,9 @@ struct ItemList: View {
         NavigationView {
             List {
                 VStack {
-                    CircleBadgeView(text: String(landmarkData.count), thickness: 2)
+                    CircleBadgeView(text: String(getAvailableItems()), thickness: 2)
                     Text("Tutorials available")
                 }.frame(minWidth:0, maxWidth: .infinity)
-                
                 
                 ForEach(userData.items) { landmark in
                     if !self.userData.showFavoriteOnly || landmark.isFavorite {
@@ -41,24 +39,26 @@ struct ItemList: View {
                     }
                 }
             }.navigationBarTitle("Tutorials")
-                .navigationBarItems(trailing: TrainlingItems)
+                .navigationBarItems(trailing: trailingItems())
         }
     }
     
-    var TrainlingItems: some View {
+    func getAvailableItems () -> Int {
+        !userData.showFavoriteOnly ? userData.items.count : userData.items.reduce(0) {
+            $0 + ( $1.isFavorite ? 1 : 0)
+        }
+    }
+    
+    func trailingItems () -> some View {
         return HStack {
+            
             if userData.showProfile {
                 NavigationLink(destination: ProfileView()) {
-                    Image(systemName: "person.circle")
-                        .imageScale(.large)
-                        .accessibility(label: Text("Profile"))
+                    Image(systemName: "person.circle").imageScale(.large).accessibility(label: Text("Profile"))
                 }
             }
-            
-            NavigationLink(destination: SettingsView().environmentObject(userData)) {
-                Image(systemName: "gear")
-                    .imageScale(.large)
-                    .accessibility(label: Text("Settings"))
+            NavigationLink(destination: SettingsView()) {
+                Image(systemName: "gear").imageScale(.large).accessibility(label: Text("Profile"))
             }
         }
     }
@@ -80,9 +80,7 @@ struct ImageOverlay : View {
 
 struct ItemList_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-            ItemList().environmentObject(UserData())
-        }
+        ItemList().environmentObject(UserData())
     }
 }
 

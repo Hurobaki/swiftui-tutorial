@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5633513D23F75C57006DB14A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5633513C23F75C57006DB14A /* SettingsView.swift */; };
 		5633513F23F76137006DB14A /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5633513E23F76137006DB14A /* BackButtonView.swift */; };
+		5634928D23FC549D008ECEE6 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5634928C23FC549D008ECEE6 /* SliderView.swift */; };
+		5634928F23FD34E1008ECEE6 /* FooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5634928E23FD34E1008ECEE6 /* FooView.swift */; };
 		564B61A823F6B58200D06B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B61A723F6B58200D06B87 /* AppDelegate.swift */; };
 		564B61AA23F6B58200D06B87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B61A923F6B58200D06B87 /* SceneDelegate.swift */; };
 		564B61AC23F6B58200D06B87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B61AB23F6B58200D06B87 /* ContentView.swift */; };
@@ -59,6 +61,8 @@
 /* Begin PBXFileReference section */
 		5633513C23F75C57006DB14A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5633513E23F76137006DB14A /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		5634928C23FC549D008ECEE6 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		5634928E23FD34E1008ECEE6 /* FooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooView.swift; sourceTree = "<group>"; };
 		564B61A423F6B58200D06B87 /* Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564B61A723F6B58200D06B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		564B61A923F6B58200D06B87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 				5633513C23F75C57006DB14A /* SettingsView.swift */,
 				5633513E23F76137006DB14A /* BackButtonView.swift */,
 				5695D5A923FA8F27005F0404 /* ProfileView.swift */,
+				5634928C23FC549D008ECEE6 /* SliderView.swift */,
+				5634928E23FD34E1008ECEE6 /* FooView.swift */,
 			);
 			path = Tutorial;
 			sourceTree = "<group>";
@@ -363,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				564B61FA23F6DD1700D06B87 /* Data.swift in Sources */,
+				5634928D23FC549D008ECEE6 /* SliderView.swift in Sources */,
 				564B61D823F6B94500D06B87 /* CircleBadgeView.swift in Sources */,
 				564B61A823F6B58200D06B87 /* AppDelegate.swift in Sources */,
 				564B61FE23F74E0200D06B87 /* UserData.swift in Sources */,
@@ -374,6 +381,7 @@
 				5633513F23F76137006DB14A /* BackButtonView.swift in Sources */,
 				564B61AC23F6B58200D06B87 /* ContentView.swift in Sources */,
 				564B61F823F6DCAD00D06B87 /* Landmark.swift in Sources */,
+				5634928F23FD34E1008ECEE6 /* FooView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,17 +546,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 7BDU49BK9D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.firelabs.tutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = fr.firelabs.tutorial;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -558,17 +568,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 7BDU49BK9D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.firelabs.tutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = distribution;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
