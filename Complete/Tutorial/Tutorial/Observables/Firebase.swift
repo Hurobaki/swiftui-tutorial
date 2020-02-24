@@ -16,7 +16,6 @@ class Firebase: ObservableObject {
     @Published var shouldRate: Bool = false
     
     init() {
-        UserDefaults.standard.removeObject(forKey: "rate")
         initListener()
     }
     
