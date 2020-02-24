@@ -16,26 +16,21 @@ class Firebase: ObservableObject {
     @Published var shouldRate: Bool = false
     
     init() {
+        UserDefaults.standard.removeObject(forKey: "rate")
         initListener()
     }
     
-    func getDatabaseValue() {
-        self.ref.child("shouldRate").observeSingleEvent(of: .value, with: { (snapshot) in
-            let shouldRate = snapshot.value as! Bool
-            if shouldRate {
-                self.shouldRate = true
-            }
-        }) { error in
-            print(error.localizedDescription)
-        }
-    }
-    
     func initListener() {
-        ref.child("shouldRate").observe(.value, with: { (snapshot) in
-            let shouldRate = snapshot.value as! Bool
-            if shouldRate {
+        ref.observe(.value, with: { (snapshot) in
+            let values = snapshot.value as! NSDictionary
+            let shouldRate = values["shouldRate"] as! Bool
+            let force = values["force"] as! Bool
+            
+            if (shouldRate && !UserDefaults.standard.bool(forKey: "rate")) || force {
                 self.shouldRate = true
+                UserDefaults.standard.set(true, forKey: "rate")
             }
+            
         }) { error in
             print(error.localizedDescription)
         }

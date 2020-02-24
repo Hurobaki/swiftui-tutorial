@@ -8,7 +8,6 @@
 
 import UIKit
 import SwiftUI
-import ModalDisplayer
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
