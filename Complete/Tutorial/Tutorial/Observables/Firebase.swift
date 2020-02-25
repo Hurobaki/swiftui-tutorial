@@ -17,6 +17,7 @@ class Firebase: ObservableObject {
     
     init() {
         initListener()
+        UserDefaults.standard.removeObject(forKey: "rate")
     }
     
     func initListener() {

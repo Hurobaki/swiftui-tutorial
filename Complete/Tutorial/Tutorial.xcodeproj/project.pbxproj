@@ -42,10 +42,17 @@
 		561A32B223FFD6C20078558A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A32A123FFD6C20078558A /* Data.swift */; };
 		561A32B323FFD6C20078558A /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A32A223FFD6C20078558A /* Landmark.swift */; };
 		561A32B723FFDA8F0078558A /* fallout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 561A32B623FFDA8F0078558A /* fallout.jpg */; };
-		561A32CE23FFDF490078558A /* libModalDisplayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 561A32CD23FFDF490078558A /* libModalDisplayer.a */; };
-		561A32D023FFE4E50078558A /* libModalDisplayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 561A32CF23FFE4E50078558A /* libModalDisplayer.a */; };
 		561A32D424000FF50078558A /* swiftUI.png in Resources */ = {isa = PBXBuildFile; fileRef = 561A32D324000FF40078558A /* swiftUI.png */; };
 		561A32D7240013060078558A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A32D6240013060078558A /* Network.swift */; };
+		56D9B2BA24040974008952D4 /* arm64-apple-ios.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 56D9B2B124040974008952D4 /* arm64-apple-ios.swiftdoc */; };
+		56D9B2BB24040974008952D4 /* x86_64-apple-ios-simulator.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 56D9B2B224040974008952D4 /* x86_64-apple-ios-simulator.swiftdoc */; };
+		56D9B2BC24040974008952D4 /* x86_64-apple-ios-simulator.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 56D9B2B324040974008952D4 /* x86_64-apple-ios-simulator.swiftmodule */; };
+		56D9B2BD24040974008952D4 /* x86_64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 56D9B2B424040974008952D4 /* x86_64.swiftdoc */; };
+		56D9B2BE24040974008952D4 /* arm64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 56D9B2B524040974008952D4 /* arm64.swiftmodule */; };
+		56D9B2BF24040974008952D4 /* x86_64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 56D9B2B624040974008952D4 /* x86_64.swiftmodule */; };
+		56D9B2C024040974008952D4 /* arm64-apple-ios.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 56D9B2B724040974008952D4 /* arm64-apple-ios.swiftmodule */; };
+		56D9B2C124040974008952D4 /* arm64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 56D9B2B824040974008952D4 /* arm64.swiftdoc */; };
+		56D9B2C224040985008952D4 /* libModalDisplayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9B2AF24040974008952D4 /* libModalDisplayer.a */; };
 		56FD33EF2401D78400F60332 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD33EE2401D78400F60332 /* View.swift */; };
 		6F79F2ED58BCD8BEBE3AFAA2 /* Pods_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01250DB66D70C2C7CDA1F19 /* Pods_Tutorial.framework */; };
 /* End PBXBuildFile section */
@@ -114,6 +121,15 @@
 		561A32CF23FFE4E50078558A /* libModalDisplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libModalDisplayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		561A32D324000FF40078558A /* swiftUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swiftUI.png; sourceTree = "<group>"; };
 		561A32D6240013060078558A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		56D9B2AF24040974008952D4 /* libModalDisplayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libModalDisplayer.a; sourceTree = "<group>"; };
+		56D9B2B124040974008952D4 /* arm64-apple-ios.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftdoc"; sourceTree = "<group>"; };
+		56D9B2B224040974008952D4 /* x86_64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
+		56D9B2B324040974008952D4 /* x86_64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
+		56D9B2B424040974008952D4 /* x86_64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftdoc; sourceTree = "<group>"; };
+		56D9B2B524040974008952D4 /* arm64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftmodule; sourceTree = "<group>"; };
+		56D9B2B624040974008952D4 /* x86_64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftmodule; sourceTree = "<group>"; };
+		56D9B2B724040974008952D4 /* arm64-apple-ios.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftmodule"; sourceTree = "<group>"; };
+		56D9B2B824040974008952D4 /* arm64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftdoc; sourceTree = "<group>"; };
 		56FD33EE2401D78400F60332 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		E01250DB66D70C2C7CDA1F19 /* Pods_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F0698BF59FA6D563BC3C17 /* Pods-Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutorial.release.xcconfig"; path = "Target Support Files/Pods-Tutorial/Pods-Tutorial.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,8 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561A32CE23FFDF490078558A /* libModalDisplayer.a in Frameworks */,
-				561A32D023FFE4E50078558A /* libModalDisplayer.a in Frameworks */,
+				56D9B2C224040985008952D4 /* libModalDisplayer.a in Frameworks */,
 				6F79F2ED58BCD8BEBE3AFAA2 /* Pods_Tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,7 +173,7 @@
 		561A31CC23FFD5990078558A = {
 			isa = PBXGroup;
 			children = (
-				561A32CB23FFDF3C0078558A /* lib */,
+				56D9B2AE2404092F008952D4 /* lib */,
 				561A31D723FFD5990078558A /* Tutorial */,
 				561A31EE23FFD59A0078558A /* TutorialTests */,
 				561A31F923FFD59A0078558A /* TutorialUITests */,
@@ -272,13 +287,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		561A32CB23FFDF3C0078558A /* lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
 		561A32CC23FFDF490078558A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +303,30 @@
 				561A32D6240013060078558A /* Network.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		56D9B2AE2404092F008952D4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				56D9B2AF24040974008952D4 /* libModalDisplayer.a */,
+				56D9B2B024040974008952D4 /* ModalDisplayer.swiftmodule */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		56D9B2B024040974008952D4 /* ModalDisplayer.swiftmodule */ = {
+			isa = PBXGroup;
+			children = (
+				56D9B2B124040974008952D4 /* arm64-apple-ios.swiftdoc */,
+				56D9B2B224040974008952D4 /* x86_64-apple-ios-simulator.swiftdoc */,
+				56D9B2B324040974008952D4 /* x86_64-apple-ios-simulator.swiftmodule */,
+				56D9B2B424040974008952D4 /* x86_64.swiftdoc */,
+				56D9B2B524040974008952D4 /* arm64.swiftmodule */,
+				56D9B2B624040974008952D4 /* x86_64.swiftmodule */,
+				56D9B2B724040974008952D4 /* arm64-apple-ios.swiftmodule */,
+				56D9B2B824040974008952D4 /* arm64.swiftdoc */,
+			);
+			path = ModalDisplayer.swiftmodule;
 			sourceTree = "<group>";
 		};
 		6091961215F77C4AE4C8979A /* Pods */ = {
@@ -417,16 +449,24 @@
 				561A32B723FFDA8F0078558A /* fallout.jpg in Resources */,
 				561A31E523FFD59A0078558A /* LaunchScreen.storyboard in Resources */,
 				561A31E223FFD59A0078558A /* Preview Assets.xcassets in Resources */,
+				56D9B2C024040974008952D4 /* arm64-apple-ios.swiftmodule in Resources */,
 				561A32AD23FFD6C20078558A /* data.json in Resources */,
+				56D9B2BA24040974008952D4 /* arm64-apple-ios.swiftdoc in Resources */,
 				561A32A823FFD6C20078558A /* icybay.jpg in Resources */,
 				561A32A923FFD6C20078558A /* lakemcdonald.jpg in Resources */,
+				56D9B2C124040974008952D4 /* arm64.swiftdoc in Resources */,
 				561A32AF23FFD6C20078558A /* stmarylake.jpg in Resources */,
+				56D9B2BC24040974008952D4 /* x86_64-apple-ios-simulator.swiftmodule in Resources */,
 				561A32A623FFD6C20078558A /* turtlerock.jpg in Resources */,
+				56D9B2BE24040974008952D4 /* arm64.swiftmodule in Resources */,
 				561A31DF23FFD59A0078558A /* Assets.xcassets in Resources */,
+				56D9B2BD24040974008952D4 /* x86_64.swiftdoc in Resources */,
 				5604F310240034330075190F /* GoogleService-Info.plist in Resources */,
 				561A32B023FFD6C20078558A /* chilkoottrail.jpg in Resources */,
 				561A32A723FFD6C20078558A /* silversalmoncreek.jpg in Resources */,
+				56D9B2BB24040974008952D4 /* x86_64-apple-ios-simulator.swiftdoc in Resources */,
 				561A32AE23FFD6C20078558A /* chincoteague.jpg in Resources */,
+				56D9B2BF24040974008952D4 /* x86_64.swiftmodule in Resources */,
 				561A32AA23FFD6C20078558A /* hiddenlake.jpg in Resources */,
 				561A32A423FFD6C20078558A /* charleyrivers.jpg in Resources */,
 				561A32AB23FFD6C20078558A /* twinlake.jpg in Resources */,
@@ -470,7 +510,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "echo ${PROJECT_DIR}\ndiff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		42988D85D8D2F550FF1772E5 /* [CP] Embed Pods Frameworks */ = {
@@ -690,10 +730,49 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				MARKETING_VERSION = 3.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleDataTransportCCTSupport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-lModalDisplayer",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = fr.firelabs.tutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = fr.firelabs.tutorial;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/lib";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -715,10 +794,49 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				MARKETING_VERSION = 3.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleDataTransportCCTSupport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-lModalDisplayer",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = fr.firelabs.tutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = distribution;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/lib";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

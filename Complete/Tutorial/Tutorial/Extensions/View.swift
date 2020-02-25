@@ -10,6 +10,7 @@ import Foundation
 import SwiftUI
 import ModalDisplayer
 
+
 extension View {
     func addFirebaseListener(show: Binding<Bool>, completionHandler: @escaping () -> Void) -> some View {
         return self.sheet(isPresented: show) {

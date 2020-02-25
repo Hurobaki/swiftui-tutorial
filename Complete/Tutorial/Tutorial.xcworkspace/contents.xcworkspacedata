@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ModalDisplayer/ModalDisplayer.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "container:Tutorial.xcodeproj">
    </FileRef>
    <FileRef

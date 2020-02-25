@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "imageName": "charleyrivers",
+        "title": "Charley Rivers",
+        "description": "Some very long description with some very long text so we can try padding and trimming text, Some very long description with some very long text so we can try padding and trimming text, Some very long description with some very long text so we can try padding and trimming text"
+    },
+    {
+        "id": 1,
+        "imageName": "chilkoottrail",
+        "title": "Chilkoot Trail",
+        "description": "Some description"
+    },
+    {
+        "id": 2,
+        "imageName": "chincoteague",
+        "title": "Chinco Teague",
+        "description": "Some description"
+    },
+    {
+        "id": 3,
+        "imageName": "hiddenlake",
+        "title": "Hidden Lake",
+        "description": "Some description"
+    },
+    {
+        "id": 4,
+        "imageName": "icebay",
+        "title": "Ice Bay",
+        "description": "Some description"
+    },
+    {
+        "id": 5,
+        "imageName": "lakemcdonald",
+        "title": "Lake Mcdonald",
+        "description": "Some description"
+    },
+    {
+        "id": 6,
+        "imageName": "rainbowlake",
+        "title": "Rainbow Lake",
+        "description": "Some description"
+    },
+    {
+        "id": 7,
+        "imageName": "silversalmoncreek",
+        "title": "Silver Salmon Creek",
+        "description": "Some description"
+    },
+    {
+        "id": 8,
+        "imageName": "stmarylake",
+        "title": "St Mary Lake",
+        "description": "Some description"
+    },
+    {
+        "id": 9,
+        "imageName": "turtlerock",
+        "title": "Turtle Rock",
+        "description": "Some description"
+    },
+    {
+        "id": 10,
+        "imageName": "twinlake",
+        "title": "Twin Lake",
+        "description": "Some description"
+    },
+    {
+        "id": 11,
+        "imageName": "umbagog",
+        "title": "Umbagog",
+        "description": "Some description"
+    }
+]
